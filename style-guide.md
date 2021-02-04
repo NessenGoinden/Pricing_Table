@@ -1,13 +1,13 @@
 # Front-end Style Guide
 
-## Layout
+## Layout 🖥
 
 The designs were created to the following widths:
 
-- Mobile: 375px
+- Mobile: 360px
 - Desktop: 1440px
 
-## Colors
+## Colors 🎨
 
 ### Primary
 
@@ -20,13 +20,12 @@ The designs were created to the following widths:
 - Grayish Blue: hsl(233, 13%, 49%)
 - Dark Grayish Blue: hsl(232, 13%, 33%)
 
-## Typography
-
-### Body Copy
-
-- Font size: 15px
+## Typography ✍🏽
 
 ### Font
 
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weight: 700
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&query=mon#standard-styles)
+
+- Weight: 100, 300 and 700
+
+* I have done some changes in the typography 😋 *
