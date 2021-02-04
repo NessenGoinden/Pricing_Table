@@ -9,37 +9,60 @@
   <!-- links -->
   <link rel="stylesheet" href="css/style.css"> 
   <link rel="stylesheet" href="css/responsive.css">
+  <!-- font link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
   <!-- title -->
   <title>Pricing Table</title>
 </head>
 <body>
 
-  Our Pricing
-  Annually
-  Monthly
+  <!-- Images Background -->
+  <img src="images/bg-top.svg" alt="top_svg" id="top_svg">
+  <img src="images/bg-bottom.svg" alt="bottom_svg" id="bottom_svg">
 
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
+  <!-- HEADER with the title and the button -->
+  <header>
+    <!-- title -->
+    <h1>Our Pricing</h1>
 
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
+    <!-- switch -->
+    <div id="checkbox">
+      <p id="monthly">Monthly</p>
+      <input type="checkbox" id="toggle" onclick="myFunction()">
+      <label for="toggle" id="switch"></label>
+      <p id="annually">Annually</p>
+    </div>
+  </header>
 
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
+  <!-- MAIN with the price -->
+  <main>main</main>
+
+  <script src="js/toggle.js"></script>
 </body>
 </html>
+
+<!--
+Basic
+&dollar;19.99
+&dollar;199.99
+500 GB Storage
+2 Users Allowed
+Send up to 3 GB
+Learn More
+
+Professional
+&dollar;24.99
+&dollar;249.99
+1 TB Storage
+5 Users Allowed
+Send up to 10 GB
+Learn More
+
+Master
+&dollar;39.99
+&dollar;399.99
+2 TB Storage
+10 Users Allowed
+Send up to 20 GB
+Learn More -->
