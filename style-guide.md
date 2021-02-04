@@ -24,7 +24,7 @@ The designs were created to the following widths:
 
 ### Font
 
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserratquery=mont&preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100;300;700)
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&query=mon#standard-styles)
 
 - Weight: 100, 300 and 700
 
