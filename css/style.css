@@ -24,24 +24,37 @@ img{
 }
 
 #bottom_svg {
-    top: 71%;
+    top: 68%;
 }
 
 /* Header */
 header{
-    background: red;
     width: 100%;
     display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2em;
-    line-height: 5em;
+    padding: 3em;
+}
+
+/* main */
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+section {
+    margin-left: 1em;
 }
 
 /* h1 */
 h1{
-    font-size: 30pt;
+    font-size: 50pt;
+    color: hsl(233, 13%, 49%);
 }
 
 
@@ -57,7 +70,7 @@ h1{
 }
 
 #monthly {
-    color :hsl(233, 13%, 49%);
+    color :rgba(33,44,202,1);
     font-weight: bold;
 }
 
@@ -66,7 +79,7 @@ h1{
     display: inline-block;
     width: 40px;
     height: 20px;
-    background-color: hsl(233, 13%, 49%);
+    background: linear-gradient(90deg, rgba(105,111,221,1) 20%, rgba(33,44,202,1) 100%);
     border-radius: 20px;
     transition: all 0.3s;
 }
@@ -87,10 +100,112 @@ h1{
     left : 20px;
 }
 
-#toggle:checked + #switch {
-    background-color: #7983ff;
-}
-
 #toggle {
     display : none;
+}
+
+/* pricing table basic */
+#pricingtable_basic{
+    background: white;
+    width: 25%;
+    line-height: 5em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px hsl(240, 100%, 95%);
+    font-weight: 700;
+    color: hsl(232, 13%, 33%);
+    font-size: 13pt;
+    padding: 0 2em 0 2em;
+    cursor: pointer;
+}
+
+#title_basic{
+    font-size: 20pt;
+}
+
+#amount_basic{
+    font-size: 60pt;
+    padding: 0.3em 0 0.6em 0;
+}
+
+#learnMore_basic{
+    width: 80%;
+    height: 4em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    letter-spacing: 5px;
+    background: linear-gradient(90deg, rgba(105,111,221,1) 20%, rgba(33,44,202,1) 100%);
+}
+
+/* pricing table professional */
+#pricingtable_pro{
+    background: white;
+    width: 25%;
+    line-height: 5em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px hsl(240, 100%, 95%);
+    font-weight: 700;
+    color: hsl(232, 13%, 33%);
+    font-size: 13pt;
+    padding: 0 2em 0 2em;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#title_pro{
+    font-size: 20pt;
+}
+
+#amount_pro{
+    font-size: 60pt;
+    padding: 0.3em 0 0.6em 0;
+}
+
+#learnMore_pro{
+    width: 80%;
+    height: 4em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    letter-spacing: 5px;
+    background: linear-gradient(90deg, rgba(105,111,221,1) 20%, rgba(33,44,202,1) 100%);
+}
+
+/* pricing table Master */
+#pricingtable_master{
+    background: white;
+    width: 25%;
+    line-height: 5em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px hsl(240, 100%, 95%);
+    font-weight: 700;
+    color: hsl(232, 13%, 33%);
+    font-size: 13pt;
+    padding: 0 2em 0 2em;
+    cursor: pointer;
+}
+
+#title_master{
+    font-size: 20pt;
+}
+
+#amount_master{
+    font-size: 60pt;
+    padding: 0.3em 0 0.6em 0;
+}
+
+#learnMore_master{
+    width: 80%;
+    height: 4em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    letter-spacing: 5px;
+    background: linear-gradient(90deg, rgba(105,111,221,1) 20%, rgba(33,44,202,1) 100%);
 }
