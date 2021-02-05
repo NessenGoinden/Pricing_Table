@@ -50,6 +50,112 @@
     }
 }
 
-@media screen and (max-width: 1100px){
-    
+@media screen and (max-width: 1000px){
+
+    #top_svg {
+        left: 60%;
+    }
+
+    #checkbox{
+        width: 30%;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    section{
+        margin-top: 2em;
+        margin-left: 23%;
+    }
+
+    #pricingtable_basic, #pricingtable_pro, #pricingtable_master{
+        width: 30em;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 70pt;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    #top_svg {
+        left: 46%;
+    }
+
+    #checkbox{
+        width: 40%;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    section{
+        margin-left: 13%;
+    }
+
+    #pricingtable_basic, #pricingtable_pro, #pricingtable_master{
+        width: 30em;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 70pt;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    #top_svg {
+        left: 38%;
+    }
+
+    #checkbox{
+        width: 50%;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    section{
+        margin-left: 13%;
+    }
+
+    #pricingtable_basic, #pricingtable_pro, #pricingtable_master{
+        width: 25em;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 70pt;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    #top_svg {
+        left: 10%;
+        width: 20em;
+    }
+
+    #checkbox{
+        width: 80%;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    section{
+        margin-left: 8%;
+    }
+
+    #pricingtable_basic, #pricingtable_pro, #pricingtable_master{
+        width: 18em;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 50pt;
+    }
 }
