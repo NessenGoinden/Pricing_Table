@@ -1,0 +1,55 @@
+@media screen and (max-width: 1700px){
+
+    #checkbox{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1500px){
+
+    #top_svg {
+        left: 75%;
+    }
+
+    #checkbox{
+        width: 15%;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 50pt;
+    }
+}
+
+@media screen and (max-width: 1300px){
+
+    #checkbox{
+        width: 20%;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 40pt;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    #top_svg {
+        left: 70%;
+    }
+
+    #checkbox{
+        width: 25%;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 35pt;
+    }
+
+    button{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    
+}

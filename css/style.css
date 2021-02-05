@@ -23,9 +23,6 @@ img{
     left: 80.3%;
 }
 
-#bottom_svg {
-    top: 68%;
-}
 
 /* Header */
 header{
@@ -60,7 +57,7 @@ h1{
 
 /* toggle switch */
 #checkbox{
-    width: 13%;
+    width: 15%;
     height: 30px;
     display: flex;
     justify-content: space-between;
@@ -127,18 +124,6 @@ h1{
     padding: 0.3em 0 0.6em 0;
 }
 
-#learnMore_basic{
-    width: 80%;
-    height: 4em;
-    margin-top: 3em;
-    margin-bottom: 2em;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    letter-spacing: 5px;
-    background: linear-gradient(90deg, rgba(105,111,221,1) 20%, rgba(33,44,202,1) 100%);
-}
-
 /* pricing table professional */
 #pricingtable_pro{
     background: white;
@@ -161,18 +146,6 @@ h1{
 #amount_pro{
     font-size: 60pt;
     padding: 0.3em 0 0.6em 0;
-}
-
-#learnMore_pro{
-    width: 80%;
-    height: 4em;
-    margin-top: 3em;
-    margin-bottom: 2em;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    letter-spacing: 5px;
-    background: linear-gradient(90deg, rgba(105,111,221,1) 20%, rgba(33,44,202,1) 100%);
 }
 
 /* pricing table Master */
@@ -198,7 +171,8 @@ h1{
     padding: 0.3em 0 0.6em 0;
 }
 
-#learnMore_master{
+/* button */
+button{
     width: 80%;
     height: 4em;
     margin-top: 3em;
@@ -208,4 +182,29 @@ h1{
     color: white;
     letter-spacing: 5px;
     background: linear-gradient(90deg, rgba(105,111,221,1) 20%, rgba(33,44,202,1) 100%);
+    cursor: pointer;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
