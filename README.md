@@ -20,4 +20,6 @@ The users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
+** I have done some changes to the design and I have added some animation **
+
 **Had great fun coding this pricing table 🚀 **
